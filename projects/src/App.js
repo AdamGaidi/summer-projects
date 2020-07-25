@@ -1,35 +1,22 @@
 import React from "react";
+
+//Stylesheet
 import "./App.css";
 
-//Plugins
-import Particles from "react-particles-js";
-
 //Projects
+import LiteratureReview from "./projects/LiteratureReview";
+import Website from "./projects/Website";
+
+//Components
+import ParticleComponent from "./components/ParticleComponent";
 
 function App() {
   return (
-    <div className="App">
-      TEst
-      <Particles
-        params={{
-          particles: {
-            number: {
-              value: 50,
-            },
-            size: {
-              value: 5,
-            },
-            color: {
-              value: "#000",
-            },
-            line_linked: {
-              enable: "true",
-              color: "#000000",
-              opacity: 0.1,
-            },
-          },
-        }}
-      />
+    <div>
+      <div className="App">
+        <ParticleComponent />
+      </div>
+      <LiteratureReview />
     </div>
   );
 }

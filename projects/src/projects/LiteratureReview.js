@@ -1,12 +1,16 @@
 /* Container class for the literature review section of the website */
 //TODO Get content from external source; GraphQL/database/firebase?
 import React from "react";
+//<img src={} alt="illustrate paper" />
+
+//Stylesheet
+import "./css/LiteratureReview.css";
 
 export default function LiteratureReview() {
   return (
-    <div>
+    <div className="lit">
       <h1>Literature Review</h1>
-      <h2>Motivation</h2>
+      <h2 className="test">Motivation</h2>
       <p>
         The literature review is an excellent tool when entering a new domain in
         which you're unfamiliar with the state of the art. The process requires
@@ -20,7 +24,7 @@ export default function LiteratureReview() {
         literature review as part of the process of familiarizing myself with
         them.
       </p>
-      <img src={paper} alt="illustrate paper" />
+
       <h2>Hypergraph Algorithms</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
