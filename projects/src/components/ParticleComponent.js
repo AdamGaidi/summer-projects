@@ -10,33 +10,26 @@ export default function ParticleComponent(
   enableLines
 ) {
   return (
-    <div
-      style={{
-        top: 0,
-        left: 0,
-        width: "100%",
-        height: " 100%",
-      }}
-    >
+    <div>
       <Particles
         params={{
           particles: {
             number: {
-              value: particleCount,
+              value: 100,
             },
             size: {
               value: 5,
             },
             color: {
-              value: particleColor,
+              value: "#fff",
             },
             opacity: {
-              value: particleOppacity,
+              value: 0.4,
             },
             line_linked: {
-              enable: enableLines,
-              color: lineColor,
-              opacity: lineOppacity,
+              enable: "true",
+              color: "#fff",
+              opacity: 0.5,
             },
           },
         }}

@@ -1,0 +1,15 @@
+.header {
+    height: 50%;
+    width: 100%;
+    
+}
+
+.bannerText {
+    top: 30%;
+    left: 30%;
+    align-self: center;
+    position: absolute;
+    color: #fff;
+    font-size: 80px;
+    text-shadow: 0 0 5px #E3C500, 0 0 15px #E3C500;
+  }

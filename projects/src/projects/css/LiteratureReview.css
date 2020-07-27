@@ -1,7 +1,11 @@
 .lit {
-    background-color: #5E4338;
+    background: linear-gradient(0deg, rgba(94,67,56,1) 40%,  rgba(255,255,255,1) 100%);
 }
 
-h2 {
-   color: fff
+p {
+    color: #F6F0D8;
+}
+
+h2, h1 {
+   color: #FFEFAE;
 }

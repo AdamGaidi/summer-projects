@@ -1,10 +1,12 @@
 /* Container class for the literature review section of the website */
 //TODO Get content from external source; GraphQL/database/firebase?
 import React from "react";
-//<img src={} alt="illustrate paper" />
 
 //Stylesheet
 import "./css/LiteratureReview.css";
+
+//image
+import paper from "../assets/paper.png";
 
 export default function LiteratureReview() {
   return (
@@ -24,7 +26,7 @@ export default function LiteratureReview() {
         literature review as part of the process of familiarizing myself with
         them.
       </p>
-
+      <img src={paper} alt="illustrate paper" />
       <h2>Hypergraph Algorithms</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
