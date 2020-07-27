@@ -1,0 +1,30 @@
+/*
+* Fade taken from this blogpost:
+* https://www.selbekk.io/blog/2019/08/how-to-fade-in-content-as-it-scrolls-into-view/
+*/
+.fade-in-section {
+    font-size: 3vh;
+    margin-top: 25vh;
+    margin-bottom: 35vh;
+    opacity: 0;
+    transform: translateY(15vh);
+    visibility: hidden;
+    transition: opacity 0.7s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.left {
+    text-align: left;
+    margin-left: 10vh;
+}
+
+.right {
+    text-align: right;
+    margin-right: 10vh;
+}

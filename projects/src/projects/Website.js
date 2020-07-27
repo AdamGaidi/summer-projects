@@ -1,10 +1,22 @@
 import React from "react";
 
+//Components
+import FadeTextComponent from "../components/FadeTextComponent";
+
 export default function Website() {
   return (
     <div className="website">
-      <p>My summer internship got cancelled last minute due to the pandemic </p>
-      <p>I decided to make the most of an unfortunate situation</p>
+      <FadeTextComponent
+        text={
+          "My summer internship got cancelled last minute due to the pandemic .."
+        }
+        left={true}
+      />
+      <FadeTextComponent
+        text={".. I decided to make the most of an unfortunate situation"}
+        left={false}
+      />
+
       <h1>The purpose of this Website</h1>
       <p>
         is to provide a summary of the projects I worked on in the summer of
