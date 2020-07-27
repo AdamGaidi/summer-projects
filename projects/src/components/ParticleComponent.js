@@ -32,6 +32,15 @@ export default function ParticleComponent(
               opacity: 0.5,
             },
           },
+          interactivity: {
+            detectsOn: "canvas",
+            events: {
+              onHover: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
         }}
       />
     </div>
