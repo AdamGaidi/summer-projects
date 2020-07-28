@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 //Stylesheet
 import "./App.css";
@@ -9,21 +9,25 @@ import Website from "./projects/Website";
 import Unity from "./projects/Unity";
 import Astral from "./projects/Astral";
 
-//Components
-import ParticleComponent from "./components/ParticleComponent";
-
 //Containers
 import HeaderContainer from "./containers/HeaderContainer";
 
 function App() {
+  const [navButton, setNavButton] = useState("");
+  const navigateRef = useRef(null);
+
+  const scroll = (ref) => {
+    ref.current.scrollIntoView({ behaviour: "smooth" });
+  };
+
   return (
     <div>
       <div className="App">
         <HeaderContainer />
-        <Website />
+        <Website scroll={scroll} reference={navigateRef} />
       </div>
 
-      <LiteratureReview />
+      <LiteratureReview ref={navigateRef} />
       <Astral />
       <Unity />
     </div>

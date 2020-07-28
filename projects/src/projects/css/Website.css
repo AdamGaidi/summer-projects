@@ -1,11 +1,10 @@
 .website {
-    padding-bottom: 10vh;
     width: 70%;
     display: inline-block;
 }
 
 #website-paragraph {
-    color: #78bcc4;
+    color: #176787;
     font-size: 2.5vh;
 }
 
@@ -13,5 +12,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 3vh;
     
+}
+
+#credit {
+    padding-top: 20vh;
+    padding-bottom: 5vh;
 }

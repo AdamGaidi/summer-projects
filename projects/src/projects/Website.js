@@ -8,9 +8,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 //Components
 import FadeTextComponent from "../components/FadeTextComponent";
 import TextAppear from "../components/TextAppear";
-import { CardGroup, CardDeck, Button } from "react-bootstrap";
+import { CardDeck, Button } from "react-bootstrap";
 
-export default function Website() {
+export default function Website(props) {
   return (
     <div className="website">
       <FadeTextComponent
@@ -27,17 +27,24 @@ export default function Website() {
 
       <div id="paragraph-container">
         <p id="website-paragraph">
-          is to provide a summary of the projects I worked on in the summer of
-          2020, while getting a chance to quickly play around with JS, React and
-          CSS - as my degree mainly involves programming in languages like C,
-          C++, Python and Java. This is something I quickly hacked together and
-          should not be regarded as a finished product. I have deliberately kept
-          it as simple as possible as the goal was to create a functional
-          website in a very short amount of time. As such I have commited the
-          cardinal sin of neither writing any tests nor ensuring compatibility
-          with every browser on the market. Each project will have its' own
-          section, featuring a unique design. I wanted to take the chance to
-          play around with various design ideas.
+          I made this website to serve as a summary of the projects I worked on
+          during the summer of 2020. There are two main factors motivating the
+          creation of a separate website: Keeping my CV tidy, and gaining
+          additional experience in JS, React and CSS. The Computer Science
+          programme at NTNU mainly base their courses on languages like C, C++,
+          Python and Java. I recognize the usefulness of experience with
+          frontend frameworks, which is why I tend to use them in hobby
+          projects.
+        </p>
+        <p id="website-paragraph">
+          This website is something I quickly hacked together and should not be
+          regarded as a finished product. I have deliberately kept it as simple
+          as possible as the goal was to create a functional website in a short
+          amount of time. As such I have commited the cardinal sin of neither
+          writing any tests nor ensuring compatibility with every browser on the
+          market. Each project will have its' own section, featuring a unique
+          design as I wanted to take the chance to play around with a couple of
+          design ideas.
         </p>
       </div>
 
@@ -53,8 +60,10 @@ export default function Website() {
               Through this project I learned a lot about the research topic, and
               also acquired valuable experience in academic writing.
             </Card.Text>
-            <Button variant="success">To project</Button>
           </Card.Body>
+          <Card.Footer>
+            <Button variant="primary">To project</Button>
+          </Card.Footer>
         </Card>
 
         <Card style={{ width: "18rem" }} bg="dark" text="white">
@@ -70,8 +79,10 @@ export default function Website() {
               pretty - for this reason I decided I wanted to try to create a
               prototype of a 3D visualization tool.
             </Card.Text>
-            <Button variant="success">To project</Button>
           </Card.Body>
+          <Card.Footer>
+            <Button variant="primary">To project</Button>
+          </Card.Footer>
         </Card>
 
         <Card style={{ width: "18rem" }} bg="dark" text="white">
@@ -87,12 +98,14 @@ export default function Website() {
               Learning, I decided to spend some time during the summer break to
               learn basic RL and acquaint myself with the Unity Game Engine.
             </Card.Text>
-            <Button variant="success">To project</Button>
           </Card.Body>
+          <Card.Footer>
+            <Button variant="primary">To project</Button>
+          </Card.Footer>
         </Card>
       </CardDeck>
 
-      <div>
+      <div id="credit">
         Icon made by{" "}
         <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
           Freepik
