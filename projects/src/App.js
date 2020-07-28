@@ -21,10 +21,11 @@ function App() {
       <div className="App">
         <HeaderContainer />
         <Website />
-        <LiteratureReview />
-        <Astral />
-        <Unity />
       </div>
+
+      <LiteratureReview />
+      <Astral />
+      <Unity />
     </div>
   );
 }

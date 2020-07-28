@@ -5,7 +5,7 @@
 .fade-in-section {
     font-size: 3vh;
     margin-top: 25vh;
-    margin-bottom: 35vh;
+    margin-bottom: 25vh;
     opacity: 0;
     transform: translateY(15vh);
     visibility: hidden;
@@ -22,9 +22,12 @@
 .left {
     text-align: left;
     margin-left: 10vh;
+    color: #F6F0D8;
 }
 
 .right {
     text-align: right;
     margin-right: 10vh;
+    margin-bottom: 70vh;
+    color: #F6F0D8;
 }

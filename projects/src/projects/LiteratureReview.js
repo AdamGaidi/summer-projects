@@ -11,9 +11,9 @@ import paper from "../assets/paper.png";
 export default function LiteratureReview() {
   return (
     <div className="lit">
-      <h1>Literature Review</h1>
-      <h2 className="test">Motivation</h2>
-      <p>
+      <h1 id="lit-h1">Literature Review</h1>
+      <h2 id="lit-h2">Motivation</h2>
+      <p id="lit-rev-paragraph">
         The literature review is an excellent tool when entering a new domain in
         which you're unfamiliar with the state of the art. The process requires
         a thourough review of both pivotal historical results, as well as more
@@ -27,8 +27,8 @@ export default function LiteratureReview() {
         them.
       </p>
       <img src={paper} alt="illustrate paper" />
-      <h2>Hypergraph Algorithms</h2>
-      <p>
+      <h2 id="lit-h2">Hypergraph Algorithms</h2>
+      <p id="lit-rev-paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -37,8 +37,8 @@ export default function LiteratureReview() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-      <h2>Availability Status</h2>
-      <p>
+      <h2 id="lit-h2">Availability Status</h2>
+      <p id="lit-rev-paragraph">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -47,11 +47,11 @@ export default function LiteratureReview() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-      <h2>
+      <h2 id="lit-h2">
         Techniques for Working with Large-Scale Complex Problems in a Hypergraph
         Setting
       </h2>
-      <p>
+      <p id="lit-rev-paragraph">
         A Hypergraph is a generalization of the more well-known graph. It
         enables the modeling of group relationships by admitting hyperedges.
         While an edge in a graph represents a binary relationship by connecting
