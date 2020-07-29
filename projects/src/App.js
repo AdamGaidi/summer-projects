@@ -13,7 +13,7 @@ import Astral from "./projects/Astral";
 //Containers
 import HeaderContainer from "./containers/HeaderContainer";
 
-import HypergraphCanvas from "./components/HypergraphCanvas";
+import HypergraphCanvas from "./containers/HypergraphCanvas";
 
 function App() {
   const litRevRef = useRef(null);

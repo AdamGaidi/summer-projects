@@ -1,4 +1,9 @@
+// Following tutorials https://philna.sh/blog/2018/09/27/techniques-for-animating-on-the-canvas-in-react/
+// and http://www.petecorey.com/blog/2019/08/19/animating-a-canvas-with-react-hooks/
 import React, { useRef, useEffect } from "react";
+
+// Components
+import Animation from "../components/HypergraphVisual/Animation";
 
 const getPixelRatio = (context) => {
   var backingStore =
@@ -13,6 +18,11 @@ const getPixelRatio = (context) => {
   return (window.devicePixelRatio || 1) / backingStore;
 };
 
+export default function HypergraphCanvas() {
+  return <Animation />;
+}
+
+/*
 export default function HypergraphCanvas() {
   const canvasRef = useRef(null);
 
@@ -56,3 +66,4 @@ export default function HypergraphCanvas() {
 
   return <canvas ref={canvasRef} style={{ width: "100px", height: "100px" }} />;
 }
+*/

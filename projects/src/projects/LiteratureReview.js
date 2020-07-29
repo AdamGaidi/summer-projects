@@ -3,7 +3,7 @@
 import React, { forwardRef } from "react";
 
 //Components
-import HypergraphCanvas from "../components/HypergraphCanvas";
+import HypergraphCanvas from "../containers/HypergraphCanvas";
 
 //Stylesheet
 import "./css/LiteratureReview.css";
