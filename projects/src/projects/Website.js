@@ -11,6 +11,10 @@ import TextAppear from "../components/TextAppear";
 import { CardDeck, Button } from "react-bootstrap";
 
 export default function Website(props) {
+  const handleClick = () => {
+    props.navButtonClick("lit-rev");
+  };
+
   return (
     <div className="website">
       <FadeTextComponent
@@ -62,7 +66,9 @@ export default function Website(props) {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button variant="primary">To project</Button>
+            <Button variant="primary" onClick={handleClick}>
+              To project
+            </Button>
           </Card.Footer>
         </Card>
 

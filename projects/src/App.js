@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 
 //Stylesheet
 import "./App.css";
+import "./html.css";
 
 //Projects
 import LiteratureReview from "./projects/LiteratureReview";
@@ -14,20 +15,26 @@ import HeaderContainer from "./containers/HeaderContainer";
 
 function App() {
   const [navButton, setNavButton] = useState("");
-  const navigateRef = useRef(null);
+  const litRevRef = useRef(null);
+  const astralRef = useRef(null);
+  const unityRef = useRef(null);
 
-  const scroll = (ref) => {
-    ref.current.scrollIntoView({ behaviour: "smooth" });
+  const navButtonClick = (buttonID) => {
+    scroll();
+  };
+
+  const scroll = () => {
+    litRevRef.current.scrollIntoView({ behaviour: "smooth" });
   };
 
   return (
     <div>
       <div className="App">
         <HeaderContainer />
-        <Website scroll={scroll} reference={navigateRef} />
+        <Website navButtonClick={navButtonClick} />
       </div>
 
-      <LiteratureReview ref={navigateRef} />
+      <LiteratureReview ref={litRevRef} />
       <Astral />
       <Unity />
     </div>
