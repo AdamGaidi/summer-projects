@@ -14,17 +14,22 @@ import Astral from "./projects/Astral";
 import HeaderContainer from "./containers/HeaderContainer";
 
 function App() {
-  const [navButton, setNavButton] = useState("");
   const litRevRef = useRef(null);
   const astralRef = useRef(null);
   const unityRef = useRef(null);
 
   const navButtonClick = (buttonID) => {
-    scroll();
+    scroll(buttonID);
   };
 
-  const scroll = () => {
-    litRevRef.current.scrollIntoView({ behaviour: "smooth" });
+  const scroll = (buttonID) => {
+    if (buttonID === "lit-rev") {
+      litRevRef.current.scrollIntoView();
+    } else if (buttonID === "astral") {
+      astralRef.current.scrollIntoView();
+    } else if (buttonID === "unity") {
+      unityRef.current.scrollIntoView();
+    }
   };
 
   return (
@@ -35,8 +40,8 @@ function App() {
       </div>
 
       <LiteratureReview ref={litRevRef} />
-      <Astral />
-      <Unity />
+      <Astral ref={astralRef} />
+      <Unity ref={unityRef} />
     </div>
   );
 }

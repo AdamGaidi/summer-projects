@@ -11,8 +11,8 @@ import TextAppear from "../components/TextAppear";
 import { CardDeck, Button } from "react-bootstrap";
 
 export default function Website(props) {
-  const handleClick = () => {
-    props.navButtonClick("lit-rev");
+  const handleClick = (buttonID) => {
+    props.navButtonClick(buttonID);
   };
 
   return (
@@ -66,7 +66,7 @@ export default function Website(props) {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button variant="primary" onClick={handleClick}>
+            <Button variant="primary" onClick={() => handleClick("lit-rev")}>
               To project
             </Button>
           </Card.Footer>
@@ -87,7 +87,9 @@ export default function Website(props) {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button variant="primary">To project</Button>
+            <Button variant="primary" onClick={() => handleClick("astral")}>
+              To project
+            </Button>
           </Card.Footer>
         </Card>
 
@@ -106,7 +108,9 @@ export default function Website(props) {
             </Card.Text>
           </Card.Body>
           <Card.Footer>
-            <Button variant="primary">To project</Button>
+            <Button variant="primary" onClick={() => handleClick("unity")}>
+              To project
+            </Button>
           </Card.Footer>
         </Card>
       </CardDeck>
