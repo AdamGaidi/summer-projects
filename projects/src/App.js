@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 
 //Stylesheet
-import "./App.css";
+import "./intro.css";
 import "./html.css";
 
 //Projects
@@ -12,6 +12,8 @@ import Astral from "./projects/Astral";
 
 //Containers
 import HeaderContainer from "./containers/HeaderContainer";
+
+import HypergraphCanvas from "./components/HypergraphCanvas";
 
 function App() {
   const litRevRef = useRef(null);
@@ -33,8 +35,8 @@ function App() {
   };
 
   return (
-    <div>
-      <div className="App">
+    <div className="App">
+      <div className="intro">
         <HeaderContainer />
         <Website navButtonClick={navButtonClick} />
       </div>
@@ -42,6 +44,7 @@ function App() {
       <LiteratureReview ref={litRevRef} />
       <Astral ref={astralRef} />
       <Unity ref={unityRef} />
+      <HypergraphCanvas />
     </div>
   );
 }

@@ -1,24 +1,104 @@
-.lit {
+/*
+=================================================
+General styling and layout
+=================================================
+*/
+.background {
     background-color: #5E4338;
-    padding-top: 8vh;
+    text-align: center;
 }
 
-
-
-#lit-h2 {
-   color: #FFEFAE;
+.lit {
+    margin: auto;
+    width: 120vh;
+    padding-top: 5vh;
+    display: grid;
+    justify-items: center;
+    grid-template-areas: 
+    "header header"
+    "motivation paper"
+    "motivation-paragraph paper"
+    ". paper"
+    "hypergraph-visual avail-status"
+    "hypergraph-canvas avail-status-paragraph"
+    "abstract-title abstract-title"
+    "abstract-paragraph abstract-paragraph";
 }
 
 #lit-h1 {
-    text-align: left;
-    font-size: 8vh;
+    font-size: 5vh;
     color: #F6F0D8;
     border-bottom-color: #CD996A;
     border-bottom-style: solid;
-    margin-right: 15vh;
-    margin-left: 15vh;
+    margin-bottom: 5vh;
+    width: 100%;
+}
+
+#lit-h2 {
+   color: #FFEFAE;
+   font-size: 3.5vh;
+   padding-top: 3vh;
 }
 
 #lit-rev-paragraph {
     color: #F6F0D8;
+    width: 51vh;
+    margin-bottom: 10vh;
+    
+}
+
+/*
+===========================================================
+GRID-AREAS & Specialized styling
+===========================================================
+*/
+.project-title {
+    grid-area: header;
+}
+
+.motivation {
+    grid-area: motivation;
+}
+
+.motivation-paragraph {
+    grid-area: motivation-paragraph;
+}
+
+.paper {
+    grid-area: paper;
+    height: 50vh;
+}
+
+.hypergraph-visual {
+    grid-area: hypergraph-visual;
+}
+
+.hypergraph-canvas {
+    grid-area: hypergraph-canvas;
+}
+
+
+
+.avail-status {
+    grid-area: avail-status;
+
+}
+
+.avail-status-paragraph {
+    grid-area: avail-status-paragraph;
+}
+
+.abstract-title {
+    border-top-style: solid;
+    border-top-color: #CD996A;
+    grid-area: abstract-title;
+    width: 100%;
+    padding-bottom: 3vh;
+}
+
+.abstract-paragraph {
+    grid-area: abstract-paragraph;
+    color: #F6F0D8;
+    width: 100%;
+    margin-bottom: 10vh;
 }
