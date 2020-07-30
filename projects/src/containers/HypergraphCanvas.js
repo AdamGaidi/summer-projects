@@ -1,6 +1,6 @@
 // Following tutorials https://philna.sh/blog/2018/09/27/techniques-for-animating-on-the-canvas-in-react/
 // and http://www.petecorey.com/blog/2019/08/19/animating-a-canvas-with-react-hooks/
-import React, { useRef, useEffect } from "react";
+import React from "react";
 
 // Components
 import Animation from "../components/HypergraphVisual/Animation";

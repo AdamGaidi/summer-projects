@@ -16,13 +16,13 @@ export default class Canvas extends React.Component {
   }
 
   componentDidUpdate() {
-    const { angle } = this.props;
+    const { angle, color } = this.props;
     this.ctx.save();
     this.ctx.beginPath();
     this.ctx.clearRect(0, 0, this.width, this.height);
     this.ctx.translate(this.width / 2, this.height / 2);
     this.ctx.rotate((angle * Math.PI) / 180);
-    this.ctx.fillStyle = "#4397AC";
+    this.ctx.fillStyle = color;
     this.ctx.fillRect(
       -this.width / 4,
       -this.height / 4,

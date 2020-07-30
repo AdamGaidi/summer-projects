@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useRef } from "react";
 
 //Stylesheet
 import "./intro.css";
@@ -12,8 +12,6 @@ import Astral from "./projects/Astral";
 
 //Containers
 import HeaderContainer from "./containers/HeaderContainer";
-
-import HypergraphCanvas from "./containers/HypergraphCanvas";
 
 function App() {
   const litRevRef = useRef(null);
@@ -44,7 +42,6 @@ function App() {
       <LiteratureReview ref={litRevRef} />
       <Astral ref={astralRef} />
       <Unity ref={unityRef} />
-      <HypergraphCanvas />
     </div>
   );
 }
