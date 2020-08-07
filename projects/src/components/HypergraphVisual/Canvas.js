@@ -15,6 +15,16 @@ export default class Canvas extends React.Component {
     this.height = this.ctx.canvas.height;
   }
 
+  createVertex;
+
+  drawVertex(vertex, color) {
+    this.ctx.fillStyle = color;
+    this.ctx.beginPath();
+    this.ctx.arc(vertex.loca);
+    this.ctx.closePath();
+    this.ctx.fill();
+  }
+
   componentDidUpdate() {
     const { angle, color } = this.props;
     this.ctx.save();

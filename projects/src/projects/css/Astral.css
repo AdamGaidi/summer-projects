@@ -1,0 +1,11 @@
+.astral-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    color: #FDFFFC;
+    text-shadow: 0 0 5px #FDDEA5, 0 0 15px #D496C5;
+    margin-top: 10vh;
+    font-size: 15vh;
+}
