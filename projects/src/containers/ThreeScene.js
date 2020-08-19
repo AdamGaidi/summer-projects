@@ -1,9 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import * as THREE from "three";
-import { LineBasicMaterial } from "three";
-import { render } from "react-dom";
 
-import { UnrealBloomPass } from "../components/UnrealBloomPass";
+
 
 export default function ThreeScene() {
   const objectRef = useRef(null);
@@ -59,23 +57,7 @@ export default function ThreeScene() {
   // Add everything to the scene
   scene.add(sphere);
 
-  // =============================================
-  // BLOOM
-  // =============================================
-  var bloomPass = new UnrealBloomPass(
-    new THREE.Vector2(window.innerWidth, window.innerHeight),
-    1.5,
-    0.4,
-    0.85
-  );
-  bloomPass.threshold = 0.7;
-  bloomPass.strength = 0.6;
-  bloomPass.radius = 1;
-
-  composer = new EffectComposer(renderer);
-  composer.addPass(renderScene);
-  composer.addPass(bloomPass);
-
+ 
   const animate = () => {
     requestAnimationFrame(animate);
 

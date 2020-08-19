@@ -4,6 +4,7 @@ import React, { forwardRef } from "react";
 
 //Components
 import HypergraphCanvas from "../containers/HypergraphCanvas";
+import HypergraphSVG from "../containers/HypergraphSVG";
 
 //Stylesheet
 import "./css/LiteratureReview.css";
@@ -42,10 +43,10 @@ const LiteratureReview = forwardRef((props, ref) => {
           Hypergraph
         </h2>
         <div className="hypergraph-canvas">
-          <HypergraphCanvas />
+          <HypergraphSVG />
         </div>
         <h2 id="lit-h2" className="avail-status">
-          Availability Status
+          Availability
         </h2>
         <p id="lit-rev-paragraph" className="avail-status-paragraph">
           I had a lot of fun wokring on this short paper (4 pages), and I
