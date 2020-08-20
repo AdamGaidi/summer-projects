@@ -1,0 +1,36 @@
+#aurora-header {
+    color: #00F5CC;
+}
+
+#takeoff-header {
+    color: #E3C500
+}
+
+#satellite-header {
+    color: #F1F518;
+}
+
+#astronaut-header {
+    
+}
+
+/*
+=====================
+FADE EFFECT
+=====================
+*/
+
+.astral-fade-in-section-header {
+    padding-top: 30vh;
+    opacity: 0;
+    transform: translateY(15vh);
+    visibility: hidden;
+    transition: opacity 0.7s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+
+.astral-fade-in-section-header.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}

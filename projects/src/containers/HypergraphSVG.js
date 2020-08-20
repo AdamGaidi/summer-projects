@@ -1,7 +1,17 @@
 import React from "react";
 
 import "./css/HypergraphSVG.css";
-
+/*
+============================
+DISCLAIMER
+============================
+This is a hardcoded mess. I did do it a little bit more 
+structured for the background-graph, however there is still a 
+lot of potential with regards to shortening the length of this.
+You probably won't learn a lot by looking at this as it stands now.
+May clean it up if I get an unexpected surge of free time, but in the
+meantime I'll have to go fast to the next part of the project. 
+*/
 export default function HypergraphSVG() {
   const backgroundGraphLines = () => {
     return (

@@ -1,0 +1,39 @@
+#astral-text {
+    font-size: 2vh;
+}
+
+#aurora-text {
+    color: #fff;
+}
+
+#takeoff-text {
+    color: #fff;
+}
+
+#satellite-text {
+    color: #fff;
+}
+
+#astronaut-text {
+    color: #fff;
+}
+
+/*
+=====================
+FADE EFFECT
+=====================
+*/
+
+.astral-fade-in-section {
+    opacity: 0;
+    transform: translateY(15vh);
+    visibility: hidden;
+    transition: opacity 0.7s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+
+.astral-fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}

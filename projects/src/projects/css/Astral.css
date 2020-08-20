@@ -1,11 +1,74 @@
+.astral {
+    background-color: black;
+    padding-top: 45vh;
+    padding-bottom: 55vh;
+}
+
 .astral-title {
-    position: absolute;
+    
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    color: #fff;
+    font-size: 4vh;
+    
+}
+
+.astral-subtitle {
     width: 100%;
     text-align: center;
     z-index: 100;
     display: block;
     color: #FDFFFC;
-    text-shadow: 0 0 5px #FDDEA5, 0 0 15px #D496C5;
-    margin-top: 10vh;
-    font-size: 15vh;
+    text-shadow: 0 0 1vh #FDDEA5, 0 0 2vh #D496C5;
+    font-size: 5vh;
+    padding-bottom: 70vh;
 }
+
+.content-container {
+    padding-bottom: 100vh;
+}
+
+
+
+#astral-text-left {
+    position: absolute;
+    left: 0px;
+    width: 40%;
+    height: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#astral-text-right {
+    position: absolute;
+    right: 0px;
+    width: 40%;
+    height: 80%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#astral-image-right {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 100vh;
+}
+
+#astral-image-left {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 100vh;
+}
+
+#aurora-background {
+    background-color: #222;
+}
+
+#satellite-background {
+    background-color: #222;
+}
+
