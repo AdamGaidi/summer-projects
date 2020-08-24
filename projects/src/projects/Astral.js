@@ -77,7 +77,7 @@ const Astral = forwardRef((props, ref) => {
         <img src={satellite} id="astral-image-right" alt="rocket launch" />
       </div>
 
-      <div className="content-container">
+      <div className="content-container" id="astronaut-background">
         <div id="astral-text-right">
           <AstralFadeHeader text="The forthcoming journey" />
           <AstralFadeText

@@ -1,5 +1,5 @@
 .astral {
-    background-color: black;
+    background-color: #111;
     padding-top: 45vh;
 }
 
@@ -68,6 +68,10 @@
 }
 
 #satellite-background {
+    background-color: #222;
+}
+
+#astronaut-background {
     background-color: #222;
 }
 
