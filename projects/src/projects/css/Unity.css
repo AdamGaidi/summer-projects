@@ -1,7 +1,27 @@
 .unity {
-    background-color: black;
+    background-color: #8e51c8;
+    justify-content: center;
+    padding-top: 4vh;
+    padding-bottom: 5vh;
+}
+
+.unity-background-card {
+    background-color: #222;
+    border-radius: 1vh;
+    width: 80%;
+    margin: auto;
+    
+}
+
+#unity-image-background {
+    
+    border-bottom-left-radius: 1vh;
+    border-bottom-right-radius: 1vh;
 }
 
 #title {
     font-size: 5vh;
+    color: #fff;
+    margin-left: 5vh;
+    
 }

@@ -1,7 +1,6 @@
 .astral {
     background-color: black;
     padding-top: 45vh;
-    padding-bottom: 55vh;
 }
 
 .astral-title {
@@ -72,3 +71,9 @@
     background-color: #222;
 }
 
+#astral-credit {
+    color: #fff;
+    padding-top: 35vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
