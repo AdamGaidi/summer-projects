@@ -13,6 +13,9 @@ import Astral from "./projects/Astral";
 //Containers
 import HeaderContainer from "./containers/HeaderContainer";
 
+// Component
+import EndCard from "./components/EndCard";
+
 function App() {
   const litRevRef = useRef(null);
   const astralRef = useRef(null);
@@ -42,6 +45,7 @@ function App() {
       <LiteratureReview ref={litRevRef} />
       <Astral ref={astralRef} />
       <Unity ref={unityRef} />
+      <EndCard />
     </div>
   );
 }

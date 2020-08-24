@@ -1,0 +1,10 @@
+.end-container {
+    background-color: #222;
+    padding: 20vh;
+}
+
+.end-content {
+    width: 50%;
+    margin: auto;
+    color: #fff;
+}
