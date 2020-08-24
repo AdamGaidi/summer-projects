@@ -19,13 +19,18 @@ const Unity = forwardRef((props, ref) => {
         <div id="paragraph-background">
           <img src={ai} alt="icon illustrating AI" id="unity-icon" />
           <p id="unity-paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            For a long time, both Reinforcement Learning and the Unity game
+            engine has been topics I've had an interest in familiarizing myself
+            with. As a fun side project to my side projects I completed several
+            simple tutorials on Unity, Unity ML and Reinforcement Learning.
+            <br />
+            <br />
+            Agents trained through Reinforcement Learning in a virtual space,
+            simulating some task, is an exciting field of research. Some notable
+            platforms include Unity ML or NVIDIA Isaac. I decided to focus my
+            efforts on Unity as it not only gives familiarity with a machine
+            learning platform, but also a game engine and 3d development in
+            general.
           </p>
         </div>
 
