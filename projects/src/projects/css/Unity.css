@@ -34,11 +34,10 @@
     }
     
     #unity-icon {
-        width: 15%;
-        height: 15%;
+        width: 13%;
+        height: 13%;
         margin: auto;
         display: block;
-        padding-top: 3vh;
     }
     
     #unity-paragraph {

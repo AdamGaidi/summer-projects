@@ -5,10 +5,11 @@ export default function ParticleComponent() {
   return (
     <div>
       <Particles
+        height={"100vh"}
         params={{
           particles: {
             number: {
-              value: 100,
+              value: 80,
             },
             size: {
               value: 5,
