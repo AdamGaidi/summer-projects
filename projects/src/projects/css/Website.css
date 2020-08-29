@@ -39,7 +39,35 @@
 @media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    .website {
+        width: 70%;
+        display: inline-block;
+        padding-top: 20vh;
+    }
+    
+    #website-paragraph {
+        color: #176787;
+        font-size: 2.5vh;
+    }
+    
+    #paragraph-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 3vh;
+        
+    }
+    
+    #credit {
+        padding-top: 20vh;
+        padding-bottom: 5vh;
+    }
+    
+    #nav-card {
+        width: 18rem;
+    }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -69,6 +97,5 @@
     
     #nav-card {
         width: 18rem;
-        font-size: 1vh;
     }
 }

@@ -14,7 +14,6 @@
         display: block;
         color: #fff;
         font-size: 3vh;
-        
     }
     
     .astral-subtitle {
@@ -25,7 +24,7 @@
         color: #FDFFFC;
         text-shadow: 0 0 1vh #FDDEA5, 0 0 2vh #D496C5;
         font-size: 4vh;
-        padding-bottom: 30vh;
+        padding-bottom: 60vh;
     }
     
     #astral-text-left {
