@@ -2,32 +2,77 @@
 * Fade taken from this blogpost:
 * https://www.selbekk.io/blog/2019/08/how-to-fade-in-content-as-it-scrolls-into-view/
 */
-.fade-in-section {
-    font-size: 3vh;
-    margin-top: 25vh;
-    margin-bottom: 25vh;
-    opacity: 0;
-    transform: translateY(15vh);
-    visibility: hidden;
-    transition: opacity 0.7s ease-out, transform 1.2s ease-out;
-    will-change: opacity, visibility;
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .fade-in-section {
+        font-size: 2vh;
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+        opacity: 0;
+        transform: translateY(15vh);
+        visibility: hidden;
+        transition: opacity 0.7s ease-out, transform 1.2s ease-out;
+        will-change: opacity, visibility;
+    }
+    
+    .fade-in-section.is-visible {
+        opacity: 1;
+        transform: none;
+        visibility: visible;
+    }
+    
+    .left {
+        text-align: left;
+        color: #F6F0D8;
+    }
+    
+    .right {
+        text-align: right;
+        margin-bottom: 30vh;
+        color: #F6F0D8;
+    }
 }
 
-.fade-in-section.is-visible {
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
-.left {
-    text-align: left;
-    margin-left: 10vh;
-    color: #F6F0D8;
-}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
 
-.right {
-    text-align: right;
-    margin-right: 10vh;
-    margin-bottom: 70vh;
-    color: #F6F0D8;
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .fade-in-section {
+        font-size: 3vh;
+        margin-top: 25vh;
+        margin-bottom: 25vh;
+        opacity: 0;
+        transform: translateY(15vh);
+        visibility: hidden;
+        transition: opacity 0.7s ease-out, transform 1.2s ease-out;
+        will-change: opacity, visibility;
+    }
+    
+    .fade-in-section.is-visible {
+        opacity: 1;
+        transform: none;
+        visibility: visible;
+    }
+    
+    .left {
+        text-align: left;
+        margin-left: 10vh;
+        color: #F6F0D8;
+    }
+    
+    .right {
+        text-align: right;
+        margin-right: 10vh;
+        margin-bottom: 70vh;
+        color: #F6F0D8;
+    }
 }

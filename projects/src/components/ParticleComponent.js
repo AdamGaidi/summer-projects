@@ -1,14 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
 
-export default function ParticleComponent(
-  lineOppacity,
-  particleOppacity,
-  lineColor,
-  particleColor,
-  particleCount,
-  enableLines
-) {
+export default function ParticleComponent() {
   return (
     <div>
       <Particles

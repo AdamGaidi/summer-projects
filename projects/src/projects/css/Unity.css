@@ -1,66 +1,148 @@
-.unity {
-    background-color: #8e51c8;
-    justify-content: center;
-    padding-top: 15vh;
-    padding-bottom: 5vh;
-}
-
-.unity-background-card {
-    background-color: #333;
-    border-radius: 1vh;
-    width: 80%;
-    margin: auto;
-    position: relative;
-}
-
-#unity-image-background {
-    border-bottom-left-radius: 1vh;
-    border-bottom-right-radius: 1vh;
-}
-
-#title {
-    font-size: 5vh;
-    color: #fff;
-    margin-left: 5vh;
-    padding-bottom: 3vh;
-}
-
-#unity-title-container {
-    display: flex;
-    align-items: center;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .unity {
+        background-color: #8e51c8;
+        justify-content: center;
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+    }
     
+    .unity-background-card {
+        background-color: #333;
+        border-radius: 1vh;
+        width: 95%;
+        margin: auto;
+        position: relative;
+    }
+    
+    #unity-image-background {
+        border-bottom-left-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+        height: 70vh;
+    }
+    
+    #title {
+        font-size: 2.3vh;
+        color: #fff;
+        padding-bottom: 2vh;
+        text-align: center;
+    }
+    
+    #unity-title-container {
+        display: flex;
+        align-items: center;
+    }
+    
+    #unity-icon {
+        width: 15%;
+        height: 15%;
+        margin: auto;
+        display: block;
+        padding-top: 3vh;
+    }
+    
+    #unity-paragraph {
+        color: white;
+        font-size: 2vh;
+        padding: .5vh;
+    }
+    
+    #paragraph-background {
+        right: 3%;
+        top: 14vh;
+        position: absolute;
+        width: 94%;
+        background-color: rgba(2, 2, 2, 0.9);
+        border-radius: 1vh;
+    }
+    
+    #unity-credit {
+        color: #fff;
+        width: 90%;
+        margin: auto;
+        background-color: rgba(2, 2, 2, 0.4);
+        border-radius: 1vh;
+        margin-top: 20vh;
+        padding: 2vh;
+        font-size: 1.5vh;
+    }
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
 
-#unity-icon {
-    width: 15%;
-    height: 15%;
-    margin: auto;
-    display: block;
-    padding-top: 3vh;
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .unity {
+        background-color: #8e51c8;
+        justify-content: center;
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+    }
+    
+    .unity-background-card {
+        background-color: #333;
+        border-radius: 1vh;
+        width: 80%;
+        margin: auto;
+        position: relative;
+    }
+    
+    #unity-image-background {
+        border-bottom-left-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+    }
+    
+    #title {
+        font-size: 5vh;
+        color: #fff;
+        margin-left: 5vh;
+        padding-bottom: 3vh;
+    }
+    
+    #unity-title-container {
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    #unity-icon {
+        width: 15%;
+        height: 15%;
+        margin: auto;
+        display: block;
+        padding-top: 3vh;
+    }
+    
+    #unity-paragraph {
+        color: white;
+        font-size: 2vh;
+        padding: 4vh;
+    }
+    
+    #paragraph-background {
+        right: 8%;
+        top: 20vh;
+        position: absolute;
+        width: 40%;
+        background-color: rgba(2, 2, 2, 0.4);
+        border-radius: 1vh;
+    }
+    
+    #unity-credit {
+        color: #fff;
+        width: 50%;
+        margin: auto;
+        background-color: rgba(2, 2, 2, 0.4);
+        border-radius: 1vh;
+        margin-top: 20vh;
+        padding: 2vh;
+    }
 }
 
-#unity-paragraph {
-    color: white;
-    font-size: 2vh;
-    padding: 4vh;
-}
-
-#paragraph-background {
-    right: 8%;
-    top: 20vh;
-    position: absolute;
-    width: 40%;
-    background-color: rgba(2, 2, 2, 0.4);
-    border-radius: 1vh;
-}
-
-#unity-credit {
-    color: #fff;
-    width: 50%;
-    margin: auto;
-    background-color: rgba(2, 2, 2, 0.4);
-    border-radius: 1vh;
-    margin-top: 20vh;
-    padding: 2vh;
-}

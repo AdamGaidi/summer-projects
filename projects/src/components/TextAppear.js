@@ -25,7 +25,7 @@ export default function FadeTextComponent(props) {
       className={`appear-in-section ${isVisible ? "is-visible" : ""}`}
       ref={domRef}
     >
-      <h1>{props.text}</h1>
+      <h1 id="web-title">{props.text}</h1>
       <img id="image" src={coding} alt={"illustrate coding"} />
     </div>
   );

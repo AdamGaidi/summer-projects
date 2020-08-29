@@ -53,7 +53,7 @@ export default function Website(props) {
       </div>
 
       <CardDeck>
-        <Card style={{ width: "18rem" }} bg="dark" text="white">
+        <Card style={{}} bg="dark" text="white" id="nav-card">
           <Card.Header>Literature Review</Card.Header>
           <Card.Body>
             <Card.Title>Complex Hypergraph Problems</Card.Title>
@@ -72,7 +72,7 @@ export default function Website(props) {
           </Card.Footer>
         </Card>
 
-        <Card style={{ width: "18rem" }} bg="dark" text="white">
+        <Card style={{}} bg="dark" text="white" id="nav-card">
           <Card.Header>Astral</Card.Header>
           <Card.Body>
             <Card.Title>Hypergraph Visualization Tool</Card.Title>
@@ -93,7 +93,7 @@ export default function Website(props) {
           </Card.Footer>
         </Card>
 
-        <Card style={{ width: "18rem" }} bg="dark" text="white">
+        <Card style={{}} bg="dark" text="white" id="nav-card">
           <Card.Header>Unity 3D & RL</Card.Header>
           <Card.Body>
             <Card.Title>
