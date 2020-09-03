@@ -75,10 +75,136 @@ General styling and layout
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .lit {
+        margin: auto;
+        width: 100%;
+        padding-top: 5vh;
+        display: grid;
+        justify-items: center;
+        grid-template-areas: 
+        "header "
+        "motivation"
+        "motivation-paragraph"
+        "paper"
+        "paper"
+        "hypergraph-visual"
+        "hypergraph-canvas"
+        "hypergraph-canvas"
+        "hypergraph-canvas"
+        "avail-status"
+        "avail-status-paragraph"
+        "abstract-title"
+        "abstract-paragraph";
+    }
+
+    #lit-h1 {
+        font-size: 5vh;
+        color: #F6F0D8;
+        border-bottom-color: #CD996A;
+        border-bottom-style: solid;
+        margin-bottom: 5vh;
+        width: 90%;
+    }
+    
+    #lit-h2 {
+       color: #FFEFAE;
+       font-size: 4vh;
+       padding-top: 6vh;
+    }
+    
+    #lit-rev-paragraph {
+        color: #F6F0D8;
+        width: 80%;
+        margin-bottom: 10vh;
+        
+    }
+
+    .hypergraph-canvas {
+        height: 90vh;
+    }
+
+    .abstract-title {
+        border-top-style: solid;
+        border-top-color: #CD996A;
+        grid-area: abstract-title;
+        width: 90%;
+        padding-bottom: 3vh;
+    }
+    
+    .abstract-paragraph {
+        grid-area: abstract-paragraph;
+        color: #F6F0D8;
+        width: 92%;
+        margin-bottom: 10vh;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .lit {
+        margin: auto;
+        width: 100%;
+        padding-top: 5vh;
+        display: grid;
+        justify-items: center;
+        grid-template-areas: 
+        "header "
+        "motivation"
+        "motivation-paragraph"
+        "paper"
+        "paper"
+        "hypergraph-visual"
+        "hypergraph-canvas"
+        "hypergraph-canvas"
+        "hypergraph-canvas"
+        "avail-status"
+        "avail-status-paragraph"
+        "abstract-title"
+        "abstract-paragraph";
+    }
+
+    #lit-h1 {
+        font-size: 5vh;
+        color: #F6F0D8;
+        border-bottom-color: #CD996A;
+        border-bottom-style: solid;
+        margin-bottom: 5vh;
+        width: 90%;
+    }
+    
+    #lit-h2 {
+       color: #FFEFAE;
+       font-size: 4vh;
+       padding-top: 6vh;
+    }
+    
+    #lit-rev-paragraph {
+        color: #F6F0D8;
+        width: 80%;
+        margin-bottom: 10vh;
+        
+    }
+
+    .hypergraph-canvas {
+        height: 90vh;
+    }
+
+    .abstract-title {
+        border-top-style: solid;
+        border-top-color: #CD996A;
+        grid-area: abstract-title;
+        width: 90%;
+        padding-bottom: 3vh;
+    }
+    
+    .abstract-paragraph {
+        grid-area: abstract-paragraph;
+        color: #F6F0D8;
+        width: 92%;
+        margin-bottom: 10vh;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {

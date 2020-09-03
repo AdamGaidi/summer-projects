@@ -75,10 +75,152 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .astral {
+        background-color: #111;
+        padding-top: 30vh;
+    }
+    
+    .astral-title {
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: #fff;
+        font-size: 3vh;
+    }
+    
+    .astral-subtitle {
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: #FDFFFC;
+        text-shadow: 0 0 1vh #FDDEA5, 0 0 2vh #D496C5;
+        font-size: 4vh;
+        padding-bottom: 60vh;
+    }
+    
+    #astral-text-left {
+        width: 100%;
+        height: 80%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    
+    #astral-text-right {
+        width: 100%;
+        height: 80%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    
+    #astral-image-right {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #astral-image-left {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #aurora-background {
+        background-color: #222;
+    }
+    
+    #satellite-background {
+        background-color: #222;
+    }
+    
+    #astronaut-background {
+        background-color: #222;
+    }
+    
+    #astral-credit {
+        color: #fff;
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        text-align: center;
+        font-size: 1.5vh;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .astral {
+        background-color: #111;
+        padding-top: 30vh;
+    }
+    
+    .astral-title {
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: #fff;
+        font-size: 3vh;
+    }
+    
+    .astral-subtitle {
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+        color: #FDFFFC;
+        text-shadow: 0 0 1vh #FDDEA5, 0 0 2vh #D496C5;
+        font-size: 4vh;
+        padding-bottom: 60vh;
+    }
+    
+    #astral-text-left {
+        width: 100%;
+        height: 80%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    
+    #astral-text-right {
+        width: 100%;
+        height: 80%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+    }
+    
+    #astral-image-right {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #astral-image-left {
+        width: 100%;
+        height: 100%;
+    }
+    
+    #aurora-background {
+        background-color: #222;
+    }
+    
+    #satellite-background {
+        background-color: #222;
+    }
+    
+    #astronaut-background {
+        background-color: #222;
+    }
+    
+    #astral-credit {
+        color: #fff;
+        padding-top: 15vh;
+        padding-bottom: 5vh;
+        text-align: center;
+        font-size: 1.5vh;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {

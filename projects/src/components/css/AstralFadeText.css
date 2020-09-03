@@ -45,10 +45,40 @@ FADE EFFECT
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+    .astral-fade-in-section {
+        opacity: 0;
+        transform: translateY(15vh);
+        visibility: hidden;
+        transition: opacity 0.7s ease-out, transform 1.2s ease-out;
+        will-change: opacity, visibility;
+        padding-bottom: 3vh;
+    }
+    
+    .astral-fade-in-section.is-visible {
+        opacity: 1;
+        transform: none;
+        visibility: visible;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .astral-fade-in-section {
+        opacity: 0;
+        transform: translateY(15vh);
+        visibility: hidden;
+        transition: opacity 0.7s ease-out, transform 1.2s ease-out;
+        will-change: opacity, visibility;
+        padding-bottom: 3vh;
+    }
+    
+    .astral-fade-in-section.is-visible {
+        opacity: 1;
+        transform: none;
+        visibility: visible;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
