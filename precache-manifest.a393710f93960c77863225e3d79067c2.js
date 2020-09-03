@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b0bdc052d336963d4dd13d72c0cafdf1",
+    "revision": "ba9137fb72d3108d4f36bade6d7aeb12",
     "url": "/summer-projects/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/summer-projects/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "8d85e18cec094b54862f",
+    "revision": "fc68bd1ae0d59003be53",
     "url": "/summer-projects/static/css/main.3b561d0b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/summer-projects/static/js/2.930f2387.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8d85e18cec094b54862f",
-    "url": "/summer-projects/static/js/main.3024d7e9.chunk.js"
+    "revision": "fc68bd1ae0d59003be53",
+    "url": "/summer-projects/static/js/main.71bcb34f.chunk.js"
   },
   {
     "revision": "0372a30cbd30ac776863",
