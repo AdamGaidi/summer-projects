@@ -24,8 +24,8 @@ const LiteratureReview = forwardRef((props, ref) => {
         <p id="lit-rev-paragraph" className="motivation-paragraph">
           The literature review is an excellent tool when entering a new domain
           in which you're unfamiliar with the state of the art. The process
-          requires a thourough review of both pivotal historical results, as
-          well as more recent research.
+          requires a thorough review of both pivotal historical results, as well
+          as more recent research.
           <br />
           <br />A literature review should be more than a retelling of the
           various sources, it is important that the author attempts to
