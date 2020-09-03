@@ -68,9 +68,10 @@ const LiteratureReview = forwardRef((props, ref) => {
           <br />I also recommend reading{" "}
           <b>"Practical Parallel Hypergraph Algorithms" - Julian Shun.</b> It
           is, to my knowledge, the first work that has been done on developing a
-          hypergraph framework, and provides valuable insight on ways to work
-          with these problems. I have given talks on both of these papers - feel
-          free to reach out if you want a link to the slides I used.
+          parallelized hypergraph framework, and provides valuable insight on
+          ways to work with these problems. I have given talks on both of these
+          papers - feel free to reach out if you want a link to the slides I
+          used.
         </p>
         <h2 id="lit-h2" className="abstract-title">
           Techniques for Working with Large-Scale Complex Problems in a
