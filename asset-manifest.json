@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/summer-projects/static/css/main.84265a5f.chunk.css",
+    "main.js": "/summer-projects/static/js/main.ecf4804a.chunk.js",
+    "main.js.map": "/summer-projects/static/js/main.ecf4804a.chunk.js.map",
+    "runtime-main.js": "/summer-projects/static/js/runtime-main.e20273b2.js",
+    "runtime-main.js.map": "/summer-projects/static/js/runtime-main.e20273b2.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/summer-projects/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.930f2387.chunk.js": "/summer-projects/static/js/2.930f2387.chunk.js",
+    "static/js/2.930f2387.chunk.js.map": "/summer-projects/static/js/2.930f2387.chunk.js.map",
+    "index.html": "/summer-projects/index.html",
+    "precache-manifest.ed36a32801ae8172bc8e58c7966d8e46.js": "/summer-projects/precache-manifest.ed36a32801ae8172bc8e58c7966d8e46.js",
+    "service-worker.js": "/summer-projects/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/summer-projects/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.84265a5f.chunk.css.map": "/summer-projects/static/css/main.84265a5f.chunk.css.map",
+    "static/js/2.930f2387.chunk.js.LICENSE.txt": "/summer-projects/static/js/2.930f2387.chunk.js.LICENSE.txt",
+    "static/media/artificial-intelligence.svg": "/summer-projects/static/media/artificial-intelligence.a19acb3e.svg",
+    "static/media/coding.svg": "/summer-projects/static/media/coding.ddce1265.svg",
+    "static/media/igor-karimov-9AmKnNZw3GA-unsplash.jpg": "/summer-projects/static/media/igor-karimov-9AmKnNZw3GA-unsplash.ea718231.jpg",
+    "static/media/johny-goerend-Oz2ZQ2j8We8-unsplash.jpg": "/summer-projects/static/media/johny-goerend-Oz2ZQ2j8We8-unsplash.8d0bd35c.jpg",
+    "static/media/nasa-OLlj17tUZnU-unsplash.jpg": "/summer-projects/static/media/nasa-OLlj17tUZnU-unsplash.9e500ee8.jpg",
+    "static/media/nasa-n463SoeSiVY-unsplash.jpg": "/summer-projects/static/media/nasa-n463SoeSiVY-unsplash.27a57425.jpg",
+    "static/media/nasa-yZygONrUBe8-unsplash.jpg": "/summer-projects/static/media/nasa-yZygONrUBe8-unsplash.1b66fae6.jpg",
+    "static/media/paper.png": "/summer-projects/static/media/paper.fc6225f1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e20273b2.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.930f2387.chunk.js",
+    "static/css/main.84265a5f.chunk.css",
+    "static/js/main.ecf4804a.chunk.js"
+  ]
+}
