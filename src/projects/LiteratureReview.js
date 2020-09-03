@@ -48,7 +48,7 @@ const LiteratureReview = forwardRef((props, ref) => {
           Availability
         </h2>
         <p id="lit-rev-paragraph" className="avail-status-paragraph">
-          I had a lot of fun wokring on this short paper (4 pages), and I
+          I had a lot of fun working on this short paper (4 pages), and I
           learned more than I expected. By surveying papers from various areas I
           found methods for approximating solutions in a meaningful way, while
           also reducing problem spaces by borrowing insight from a range of

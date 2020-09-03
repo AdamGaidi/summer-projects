@@ -63,7 +63,7 @@
 
   .bannerText {
     top: 40%;
-    left: 10%;
+    left: 12%;
     align-self: center;
     position: absolute;
     color: #fff;
@@ -80,12 +80,19 @@
     }
     
     .bannerText {
-        top: 30%;
-        left: 30%;
+        top: 40%;
+        left: 20%;
         align-self: center;
         position: absolute;
         color: #fff;
         font-size: 80px;
         text-shadow: 0 0 5px #E3C500, 0 0 15px #E3C500;
       }
+}
+
+@media only screen and (min-width: 1500px) {
+  .bannerText {
+    top: 35%;
+    left: 30%;
+  }
 }
