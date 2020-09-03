@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba9137fb72d3108d4f36bade6d7aeb12",
+    "revision": "2e791aea9827b2c9e4f278f546de6830",
     "url": "/summer-projects/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/summer-projects/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "fc68bd1ae0d59003be53",
+    "revision": "233f299ebd19f45bdc20",
     "url": "/summer-projects/static/css/main.3b561d0b.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/summer-projects/static/js/2.930f2387.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc68bd1ae0d59003be53",
-    "url": "/summer-projects/static/js/main.71bcb34f.chunk.js"
+    "revision": "233f299ebd19f45bdc20",
+    "url": "/summer-projects/static/js/main.4f313062.chunk.js"
   },
   {
     "revision": "0372a30cbd30ac776863",
@@ -56,7 +56,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/summer-projects/static/media/nasa-yZygONrUBe8-unsplash.1b66fae6.jpg"
   },
   {
-    "revision": "fc6225f160a65b7910430150f864dfd7",
-    "url": "/summer-projects/static/media/paper.fc6225f1.png"
+    "revision": "13bb831fa756632b59eca199c3354190",
+    "url": "/summer-projects/static/media/paper.13bb831f.png"
   }
 ]);
